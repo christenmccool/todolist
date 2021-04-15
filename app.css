@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BFCDE0;
+}
+
+#quote {
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    margin: 10px;
+    background-color: #3B3355;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#add-item-div {
+    margin: 10px;
+    font-family: Montserrat, sans-serif;
+}
+
+#add-item-div input {
+    font-family: Montserrat, sans-serif;
+    padding: 3px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+#add-item-div button {
+    font-family: Montserrat, sans-serif;
+    padding: 3px;
+    background-color: #5D5D81;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+    
+#todo-list-div {
+    font-family: "New Tegomin", sans-serif;
+    margin: 50px 200px;
+}
+
+#todo-list-div h1 {
+    color: #3B3355;
+    font-size: 50px;
+}
+
+#todo-list-div li {
+    color: #000505;
+    font-size: 20px;
+}
+
+#todo-list-div button {
+    border: none;
+    font-style: italic;
+    border-radius: 5px;
+    background-color: #5D5D81;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
